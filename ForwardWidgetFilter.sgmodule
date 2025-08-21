@@ -1,9 +1,9 @@
-#!name=Forward Widget Filter for Surge
+#!name=🎬 Forward Widget Filter for Surge
 #!desc=Forward常用模块必要分流
 #!author=Rinrin.（Ruleset by VEUS）
-#!category=🎬 Forward
+#!category=Forward
 #!arguments=proxy:Proxy
-#!arguments-desc= [参数设置]\n proxy：填入代理策略组名称或代理节点名称\n ❗️不填则默认Proxy代理策略组，如没有Proxy策略组会报错
+#!arguments-desc=[参数设置]\n proxy：填入代理策略组名称或代理节点名称\n ❗️不填则默认Proxy代理策略组，如没有Proxy策略组会报错
 
 [Rule]
 #danmu
@@ -21,6 +21,7 @@ DOMAIN-KEYWORD,cdn77,{{{proxy}}}
 DOMAIN-SUFFIX,jable.tv,{{{proxy}}}
 DOMAIN-SUFFIX,mushroomtrack.com,{{{proxy}}}
 DOMAIN-SUFFIX,javrate.com,{{{proxy}}}
+DOMAIN-SUFFIX,b-cdn.net,{{{proxy}}}
 #Media Metadata Sources
 DOMAIN-SUFFIX,imdb.com,{{{proxy}}}
 DOMAIN-SUFFIX,media-imdb.com,{{{proxy}}}
@@ -40,3 +41,6 @@ DOMAIN-SUFFIX,ulivetv.net,{{{proxy}}}
 DOMAIN-SUFFIX,efhie.com,{{{proxy}}}
 DOMAIN-SUFFIX,newpppp.com,{{{proxy}}}
 DOMAIN-SUFFIX,ceres9350.com,{{{proxy}}}
+
+
+🔗https://raw.githubusercontent.com/xxxjacc/SurgeModule/main/ForwardWidgetFilter.sgmodule
