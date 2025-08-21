@@ -1,41 +1,40 @@
 #!name=Forward Widget Filter for Surge
 #!desc=Forward常用模块必要分流。使用方法：需将本Surge模块设置的Proxy参数项填入代理策略组名称或代理节点名称（注意检查空格大小写emoji以免名称错误导致报错）
 #!author=Rinrin.（Ruleset by VEUS）
-
-#!argument name=proxy, type=policy, desc="请为模块内的规则选择代理策略组或节点", default=PROXY
+#!arguments=proxy:PROXY
 
 [Rule]
 #danmu
-DOMAIN-SUFFIX,dandanplay.net, %proxy%
+DOMAIN-SUFFIX,dandanplay.net,{{{proxy}}}
 #Porn Streaming Modules
-DOMAIN-KEYWORD,javday, %proxy%
-DOMAIN-SUFFIX,pornhub.com, %proxy%
-DOMAIN-SUFFIX,phncdn.com, %proxy%
-DOMAIN-SUFFIX,xvideos.com, %proxy%
-DOMAIN-SUFFIX,xvideos-cdn.com, %proxy%
-DOMAIN-SUFFIX,91porn.com, %proxy%
-DOMAIN-KEYWORD,btc620, %proxy%
-DOMAIN-KEYWORD,killcovid2021, %proxy%
-DOMAIN-KEYWORD,cdn77, %proxy%
-DOMAIN-SUFFIX,jable.tv, %proxy%
-DOMAIN-SUFFIX,mushroomtrack.com, %proxy%
-DOMAIN-SUFFIX,javrate.com, %proxy%
+DOMAIN-KEYWORD,javday,{{{proxy}}}
+DOMAIN-SUFFIX,pornhub.com,{{{proxy}}}
+DOMAIN-SUFFIX,phncdn.com,{{{proxy}}}
+DOMAIN-SUFFIX,xvideos.com,{{{proxy}}}
+DOMAIN-SUFFIX,xvideos-cdn.com,{{{proxy}}}
+DOMAIN-SUFFIX,91porn.com,{{{proxy}}}
+DOMAIN-KEYWORD,btc620,{{{proxy}}}
+DOMAIN-KEYWORD,killcovid2021,{{{proxy}}}
+DOMAIN-KEYWORD,cdn77,{{{proxy}}}
+DOMAIN-SUFFIX,jable.tv,{{{proxy}}}
+DOMAIN-SUFFIX,mushroomtrack.com,{{{proxy}}}
+DOMAIN-SUFFIX,javrate.com,{{{proxy}}}
 #Media Metadata Sources
-DOMAIN-SUFFIX,imdb.com, %proxy%
-DOMAIN-SUFFIX,media-imdb.com, %proxy%
-DOMAIN-SUFFIX,tmdb.org, %proxy%
+DOMAIN-SUFFIX,imdb.com,{{{proxy}}}
+DOMAIN-SUFFIX,media-imdb.com,{{{proxy}}}
+DOMAIN-SUFFIX,tmdb.org,{{{proxy}}}
 #VOD Modules
-DOMAIN-SUFFIX,heimuer.tv, %proxy%
-DOMAIN-SUFFIX,dytt8vip.com, %proxy%
-DOMAIN-SUFFIX,imgzy360.com, %proxy%
-DOMAIN-SUFFIX,iill.top, %proxy%
+DOMAIN-SUFFIX,heimuer.tv,{{{proxy}}}
+DOMAIN-SUFFIX,dytt8vip.com,{{{proxy}}}
+DOMAIN-SUFFIX,imgzy360.com,{{{proxy}}}
+DOMAIN-SUFFIX,iill.top,{{{proxy}}}
 #Trailer Cover
-DOMAIN-SUFFIX,googlevideo.com, %proxy%
+DOMAIN-SUFFIX,googlevideo.com,{{{proxy}}}
 #Infinite API
-DOMAIN-SUFFIX,malaysla.com, %proxy%
-DOMAIN-SUFFIX,biggggg.com, %proxy%
-DOMAIN-SUFFIX,nivod4.tv, %proxy%
-DOMAIN-SUFFIX,ulivetv.net, %proxy%
-DOMAIN-SUFFIX,efhie.com, %proxy%
-DOMAIN-SUFFIX,newpppp.com, %proxy%
-DOMAIN-SUFFIX,ceres9350.com, %proxy%
+DOMAIN-SUFFIX,malaysla.com,{{{proxy}}}
+DOMAIN-SUFFIX,biggggg.com,{{{proxy}}}
+DOMAIN-SUFFIX,nivod4.tv,{{{proxy}}}
+DOMAIN-SUFFIX,ulivetv.net,{{{proxy}}}
+DOMAIN-SUFFIX,efhie.com,{{{proxy}}}
+DOMAIN-SUFFIX,newpppp.com,{{{proxy}}}
+DOMAIN-SUFFIX,ceres9350.com,{{{proxy}}}
