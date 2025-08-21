@@ -3,7 +3,7 @@
 #!author=Rinrin.（Ruleset by VEUS）
 #!category=🎬 Forward
 #!arguments=proxy:Proxy
-#!arguments-desc =  [参数设置]\n proxy：填入代理策略组名称或代理节点名称\n ❗️不填则默认Proxy代理策略组，如没有Proxy策略组会报错
+#!arguments-desc= [参数设置]\n proxy：填入代理策略组名称或代理节点名称\n ❗️不填则默认Proxy代理策略组，如没有Proxy策略组会报错
 
 [Rule]
 #danmu
